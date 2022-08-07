@@ -14,11 +14,9 @@ fi
 chmod 777 ~/nginx/sbin/nginx
 
 if [ ! -f "index.php" ];then
-  curl -L https://github.com/tznb1/onenav/archive/refs/heads/master.zip -o onenav-extend.zip
-unzip onenav-extend.zip
-rm -f onenav-extend.zip
-mv onenav-master/*  . 
-rm -f onenav-master & rm -f LICENSE
+  curl -L https://github.com/typecho/typecho/releases/latest/download/typecho.zip -o typecho.zip
+unzip typecho.zip
+rm -f typecho.zip
 fi
 
 php -S 0.0.0.0:8000 -t . &

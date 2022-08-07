@@ -1,34 +1,30 @@
-# n-o-p
+# n-t-p
 
-Nginx+OneNav-Extend+php on replit.
+Nginx+Typecho+php on replit.
 
 #### APP:
 
-[OneNav-Extend](https://gitee.com/tznb/OneNav)
+[Typecho](https://github.com/typecho/typecho)
 
 ### Packages:
 
-1. unzip
-
-2. bashInteractive
-
-3. php74
-
-4. php74Extensions.pdo
-
-5. sqlite
+1. bashInteractive
+2. php74
+3. php74Extensions.pdo
+4. php74Extensions.mbstring
+5. curl_unix_socket
+6. sqlite
+7. unzip
 
 ### Feature:
 
-      1. Upgrade support
-
-      2. Nginx(v1.20.2) as frontend with full configured.
+Nginx(v1.20.2) as frontend with full configured.
 
 ### Deploy:
 
    Choose "Import from GitHub".
 
-<a href="https://replit.com/github/gityzon/n-o-p">
+<a href="https://replit.com/github/gityzon/n-t-p">
   <img alt="Run on Repl.it" src="https://replit.com/badge/github/github/gityzon" style="height: 40px; width: 190px;" />
 </a>
 
@@ -40,6 +36,6 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
 
 2. Copy these code to Replit's Shell and ←
 
-   `git clone https://github.com/gityzon/n-o-p.git && mv -b n-o-p/* ./ && mv -b n-o-p/.[^.]* ./ && rm -rf *~ && rm -rf n-o-p`
+   `git clone https://github.com/gityzon/n-t-p.git && mv -b n-t-p/* ./ && mv -b n-t-p/.[^.]* ./ && rm -rf *~ && rm -rf n-t-p`
 
 3. After "Loading Nix environment..." is done, ▶RUN!!!

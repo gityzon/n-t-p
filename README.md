@@ -39,3 +39,8 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
    `git clone https://github.com/gityzon/n-t-p && mv -b n-t-p/* ./ && mv -b n-t-p/.[^.]* ./ && rm -rf *~ && rm -rf n-t-p`
 
 3. After "Loading Nix environment..." is done, ▶RUN!!!
+
+## Warn:
+
+Please read main.sh for manage your site.
+

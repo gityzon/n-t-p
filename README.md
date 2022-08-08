@@ -42,5 +42,5 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
 
 ## Warn:
 
-Please read main.sh for manage your site.
+Please read "main.sh" for managing your site.
 

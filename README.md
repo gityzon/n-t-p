@@ -36,6 +36,6 @@ If you use mobile phone,please set the UA of Browser as "Desktop" or maybe repli
 
 2. Copy these code to Replit's Shell and ←
 
-   `git clone https://github.com/gityzon/n-t-p.git && mv -b n-t-p/* ./ && mv -b n-t-p/.[^.]* ./ && rm -rf *~ && rm -rf n-t-p`
+   `git clone https://github.com/gityzon/n-t-p && mv -b n-t-p/* ./ && mv -b n-t-p/.[^.]* ./ && rm -rf *~ && rm -rf n-t-p`
 
 3. After "Loading Nix environment..." is done, ▶RUN!!!

@@ -19,5 +19,5 @@ unzip typecho.zip
 rm -f typecho.zip
 fi
 
-php -S 0.0.0.0:8000 -t .
+php -S 0.0.0.0:8000 -t . &
 nginx -g 'daemon off;'

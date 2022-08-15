@@ -6,7 +6,7 @@
 
 #!/bin/bash
 
-export PATH="~/nginx/sbin:brook:panindex$PATH"
+export PATH="~/nginx/sbin:$PATH"
 
 if [ ! -d "~/nginx" ];then
 	\cp -ax .nginx ~/nginx

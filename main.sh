@@ -20,5 +20,6 @@ unzip typecho.zip
 rm -f typecho.zip
 fi
 
+sh start-redis.sh &
 php -S 0.0.0.0:8000 -t . &
 nginx -g 'daemon off;'

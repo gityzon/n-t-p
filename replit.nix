@@ -7,5 +7,6 @@
     pkgs.curl_unix_socket
     pkgs.sqlite
     pkgs.unzip
+    pkgs.redis
 	];
 }

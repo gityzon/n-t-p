@@ -1,0 +1,3 @@
+SET key value
+KEYS *
+GET key

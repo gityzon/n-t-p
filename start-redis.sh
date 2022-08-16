@@ -14,5 +14,5 @@ echo $! > $REDIS_SERVER_PID_FILE
 
 # start redis-cli
 
-#redis-cli < commands.txt
+redis-cli < commands.txt
 #redis-cli
